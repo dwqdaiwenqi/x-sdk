@@ -33,7 +33,7 @@ https://cdn0.myh5.90wmoyu.com/index.ky.html?token=4002496f259136c56c8fe3aae03665
 
 
 ```js
-//ios中开启相册权限，和截屏
+//ios中开启相册权限后截屏
 window.handleRequestAccessForPhoto = (data)=>{
   //成功开启了相册权限
   if(data.success){
