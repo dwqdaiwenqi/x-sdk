@@ -2,10 +2,8 @@
 
 ### 全局
 * 不能把jssdk用到pc上的吧
-* 游戏和jssdk需要放到一个页面上,需要重构现有的页面 ，是把sdk放到
-现在的http://www.xy.com/h5/game/play?gameid=37#forward
-
-还是让游戏方的
+* 游戏和jssdk需要放到一个页面上,需要重构现有的页面 
+* 是把jssdk放到http://www.xy.com/h5/game/play?gameid=37#forward还是游戏方的
 https://cdn0.myh5.90wmoyu.com/index.ky.html?token=4002496f259136c56c8fe3aae0366508&logintime=1559281173&uid=88360930&indulge=2&isad=no&logotype=1&logo_url=test&from=browser&channel=Android
 * 和游戏需要进行js交互，获取点击进入游戏事件和允许进入游戏事件
 
