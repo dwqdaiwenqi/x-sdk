@@ -31,3 +31,25 @@ https://cdn0.myh5.90wmoyu.com/index.ky.html?token=4002496f259136c56c8fe3aae03665
 
 ///////////////////////////////
 
+
+```js
+window.handleRequestAccessForPhoto = (data)=>{
+      //成功开启了相册权限
+      if(data.success){
+
+        //开启了相册权限后，调用截屏功能
+        window.webkit.messageHandlers.screenshort.postMessage({})
+
+        //...
+      } else{
+        //失败
+        //建议用户自己截屏
+        
+        //.....
+
+      }
+    }
+    window.webkit.messageHandlers.requestAccessForPhoto.postMessage({})
+
+```
+
