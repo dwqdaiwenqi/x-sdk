@@ -37,13 +37,10 @@ https://cdn0.myh5.90wmoyu.com/index.ky.html?token=4002496f259136c56c8fe3aae03665
 window.handlescreenshort = (data)=>{
   //用户开启了相册权限，截屏成功
   if(data.success){
-    
-    
-
     //...
   } else{
     //截屏失败
-  
+
     //.....
 
   }
