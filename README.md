@@ -45,7 +45,7 @@ window.handlescreenshort = (data)=>{
 
   }
 }
-
+// 调用ios截屏
 window.webkit.messageHandlers.screenshort.postMessage({})
 
 ```
